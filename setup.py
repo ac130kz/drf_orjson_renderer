@@ -30,7 +30,7 @@ setup(
     install_requires=[
         "django>=3.2,<=4.1",
         "djangorestframework",
-        "orjson>=3.6.7",
+        "orjson>=3.7.0",
     ],
     python_requires=">=3.6.0",
     zip_safe=True,
