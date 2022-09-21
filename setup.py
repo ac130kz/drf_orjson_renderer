@@ -28,19 +28,19 @@ setup(
     packages=["drf_orjson_renderer"],
     license="MIT",
     install_requires=[
-        "django>=3.2,<=4.1",
+        "django>=3.2",
         "djangorestframework",
-        "orjson>=3.7.0",
+        "orjson>=3.8.0",
     ],
-    python_requires=">=3.6.0",
+    python_requires=">=3.8.0",
     zip_safe=True,
     keywords=["drf_orjson_renderer", "rest_framework", "orjson"],
     classifiers=[
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Natural Language :: English",
-        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
     ],
 )
